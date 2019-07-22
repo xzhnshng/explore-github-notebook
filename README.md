@@ -1,4 +1,3 @@
 # explore-github-notebook
-a repository to record something
+a repository to record the contant this account contains as time goes by.
 
-I think from now I am going to fully explore github, and I determine to record something useful about github functions or what I newly learn on this repository.
