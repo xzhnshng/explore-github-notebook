@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML</title>
+</head>
+<body>
+<div id="wmd-preview" class="wmd-preview"><div class="md-section-divider"></div><div class="md-section-divider"></div><h1 data-anchor-id="61o8" id="html">HTML</h1><p data-anchor-id="sbr4"><code>w3school教程</code></p><hr><div class="md-section-divider"></div><h3 data-anchor-id="o8rs" id="html简介">HTML简介</h3><ul data-anchor-id="5ig9">
+<li><p>HTML 是用来描述网页的一种语言。</p>
+
+<blockquote class="white-blockquote">
+  <p>HTML 指的是超文本标记语言 (Hyper Text Markup Language) <br>
+  HTML 指的是超文本标记语言 (Hyper Text Markup Language)</p>
+</blockquote></li>
+<li><p>HTML标签 (HTML tag)</p>
+
+<blockquote class="white-blockquote">
+  <p>HTML 标签是由尖括号包围的关键词，比如 &lt;html&gt; <br>
+  HTML 标签通常是成对出现的，比如 &lt;b&gt; 和 &lt;/b&gt; <br>
+  标签对中的第一个标签是开始标签，第二个标签是结束标签 <br>
+  开始和结束标签也被称为开放标签和闭合标签</p>
+</blockquote></li>
+<li><p>HTML文档=网页</p>
+
+<blockquote class="white-blockquote">
+  <p>HTML 文档包含 HTML 标签和纯文本 <br>
+  HTML 文档描述网页 也被称为网页</p>
+</blockquote></li>
+</ul><p data-anchor-id="84lj"><strong>HTML编译器</strong>： 用记事本（mac用textedit） <br>
+打开记事本写html代码--&gt;保存为html格式，后缀为.htm或.html--&gt;打开这个保存为html格式的文档，即打开其网页</p><div class="md-section-divider"></div><h3 data-anchor-id="2dyj" id="html标签">HTML标签</h3><p data-anchor-id="d0fe">html标题：用&lt;h1&gt;-&lt;h6&gt;等标签来定义</p><div class="md-section-divider"></div><pre class="prettyprint linenums prettyprinted" data-anchor-id="fe9k"><ol class="linenums"><li class="L0"><code><span class="tag">&lt;h1&gt;</span><span class="pln">This is a heading</span><span class="tag">&lt;/h1&gt;</span></code></li><li class="L1"><code><span class="tag">&lt;h2&gt;</span><span class="pln">This is a heading</span><span class="tag">&lt;/h2&gt;</span></code></li><li class="L2"><code><span class="tag">&lt;h3&gt;</span><span class="pln">This is a heading</span><span class="tag">&lt;/h3&gt;</span></code></li></ol></pre><p data-anchor-id="l5ya">html段落：用&lt;p&gt;标签来定义 <br>
+html链接：用&lt;a&gt;标签来定义;注：在 href 属性中指定链接的地址。</p><div class="md-section-divider"></div><pre class="prettyprint linenums prettyprinted" data-anchor-id="c4za"><ol class="linenums"><li class="L0"><code><span class="pln"> </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"http://www.w3school.com.cn"</span><span class="tag">&gt;</span><span class="pln">This is a link to w3school</span><span class="tag">&lt;/a&gt;</span></code></li></ol></pre><p data-anchor-id="jghi"><a href="http://www.w3school.com.cn" target="_blank">This is a link to w3school</a> <br>
+html图片：用&lt;img&gt;标签来定义；注：图像的名称和尺寸是以属性的形式提供的，所以我们加“”</p><div class="md-section-divider"></div><pre class="prettyprint linenums prettyprinted" data-anchor-id="d0y5"><ol class="linenums"><li class="L0"><code><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"w3school.jpg"</span><span class="pln"> </span><span class="atn">width</span><span class="pun">=</span><span class="atv">"104"</span><span class="pln"> </span><span class="atn">height</span><span class="pun">=</span><span class="atv">"142"</span><span class="pln"> </span><span class="tag">/&gt;</span></code></li></ol></pre><div class="md-section-divider"></div><h3 data-anchor-id="8jz2" id="html元素">HTML元素</h3><blockquote data-anchor-id="62k7" class="white-blockquote">
+  <p>HTML 元素指的是从开始标签（start tag）到结束标签（end tag）的所有代码。大多数 HTML 元素可拥有属性 <br>
+  大多数 HTML 元素可以嵌套（可以包含其他 HTML 元素）。</p>
+</blockquote><ol data-anchor-id="94y0">
+<li>HTML 文档由嵌套的 HTML 元素构成。</li>
+</ol><p data-anchor-id="qgj4"><strong>HTML 文档实例</strong></p><pre data-anchor-id="bga7">&lt;html&gt;
+
+&lt;body&gt;
+&lt;p&gt;This is my first paragraph.&lt;/p&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</pre><p data-anchor-id="vab0">上面的例子包含三个 HTML 元素: &lt;p&gt;元素,&lt;body&gt;元素，&lt;html&gt;元素</p><pre data-anchor-id="yocj">&lt;p&gt;This is my first paragraph.&lt;/p&gt;</pre><pre data-anchor-id="tgyt">&lt;body&gt;
+&lt;p&gt;This is my first paragraph.&lt;/p&gt;
+&lt;/body&gt;
+</pre><pre data-anchor-id="u6rg">&lt;html&gt;
+
+&lt;body&gt;
+&lt;p&gt;This is my first paragraph.&lt;/p&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</pre><p data-anchor-id="wcxb">2.空的HTML元素： <br>
+&lt;br/&gt;换行</p><div class="md-section-divider"></div><h3 data-anchor-id="8aun" id="html属性-和-html样式样式要学了css后再看">HTML属性 和 HTML样式（样式要学了CSS后再看）</h3><p data-anchor-id="p5xj">待补充</p><div class="md-section-divider"></div><h3 data-anchor-id="8aq0" id="html常见标签">HTML常见标签</h3><p data-anchor-id="rp7n">&lt;html&gt; : 定义HTML文档，&lt;html&gt; 与 &lt;/html&gt; 之间的文本描述网页 <br>
+&lt;body&gt; : 定义文档主体，&lt;body&gt; 与 &lt;/body&gt; 之间的文本是可见的页面内容 <br>
+&lt;br/&gt;:    换行 <br>
+&lt;hr/&gt;:   水平线 <br>
+&lt;!-- --&gt;:  HTML注释</p><p data-anchor-id="ggf0"><strong>示例</strong>（水平线，注释）</p><pre data-anchor-id="477e">&lt;p&gt;This is a paragraph&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;This is a paragraph&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;This is a paragraph&lt;/p&gt;
+</pre><pre data-anchor-id="2zjm">&lt;!-- This is a comment --&gt;
+</pre><p data-anchor-id="rfob"><br></p><div class="md-section-divider"></div><h3 data-anchor-id="oi84" id="html文本格式化">HTML文本格式化</h3><blockquote data-anchor-id="j8xw" class="white-blockquote">
+  <p>1.文本格式化 <br>
+  2.预格式文本 <br>
+  3.“计算机输出”标签 <br>
+  4.引用、引用和术语定义 <br>
+  5.地址 <br>
+  6.缩写和首字母缩写 <br>
+  7.文字方向 <br>
+  8.删除字效果和插入字效果</p>
+</blockquote><h4 style="text-align:center" data-anchor-id="lyr3" id="1文本格式化标签">1.文本格式化标签</h4><table class="table table-striped-white table-bordered" data-anchor-id="n8o1">
+<tbody><tr>
+<th style="width:30%">标签</th>
+<th style="width:70%">描述</th>
+</tr>
+<tr>
+<td><a href="/tags/tag_font_style.asp" target="_blank">&lt;b&gt;</a></td>
+<td>定义粗体文本。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_font_style.asp" target="_blank">&lt;big&gt;</a></td>
+<td>定义大号字。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_phrase_elements.asp" target="_blank">&lt;em&gt;</a></td>
+<td>定义着重文字。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_font_style.asp" target="_blank">&lt;i&gt;</a></td>
+<td>定义斜体字。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_font_style.asp" target="_blank">&lt;small&gt;</a></td>
+<td>定义小号字。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_phrase_elements.asp" target="_blank">&lt;strong&gt;</a></td>
+<td>定义加重语气。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_sup.asp" target="_blank">&lt;sub&gt;</a></td>
+<td>定义下标字。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_sup.asp" target="_blank">&lt;sup&gt;</a></td>
+<td>定义上标字。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_ins.asp" target="_blank">&lt;ins&gt;</a></td>
+<td>定义插入字。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_del.asp" target="_blank">&lt;del&gt;</a></td>
+<td>定义删除字。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_strike.asp" target="_blank">&lt;s&gt;</a></td>
+<td class="deprecated"><em>不赞成使用。</em>使用 &lt;del&gt; 代替。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_strike.asp" target="_blank">&lt;strike&gt;</a></td>
+<td class="deprecated"><em>不赞成使用。</em>使用 &lt;del&gt; 代替。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_u.asp" target="_blank">&lt;u&gt;</a></td>
+<td class="deprecated"><em>不赞成使用。</em>使用样式（style）代替。</td>
+</tr>
+</tbody></table><p data-anchor-id="d15h"><br></p><h4 style="text-align:center" data-anchor-id="bkkk" id="2预格式文本">2.预格式文本</h4><p data-anchor-id="hqmm">用&lt;pre&gt;标签，下面示例 和 效果网页图片</p><p data-anchor-id="x0fw"><img src="http://static.zybuluo.com/PenguinFather/nl3uihp7egu5irxxqqp9aitb/image_1dftv9b8justl2t5j616oao3l9.png" alt="image_1dftv9b8justl2t5j616oao3l9.png-54.1kB" title=""> <br>
+<br></p><h4 style="text-align:center" data-anchor-id="jub7" id="3计算机输出标签">3.“计算机输出”标签</h4><table class="table table-striped-white table-bordered" data-anchor-id="pebc">
+<tbody><tr>
+<th style="width:30%">标签</th>
+<th style="width:70%">描述</th>
+</tr>
+<tr>
+<td><a href="/tags/tag_phrase_elements.asp" target="_blank">&lt;code&gt;</a></td>
+<td>定义计算机代码，即编程代码示例</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_phrase_elements.asp" target="_blank">&lt;kbd&gt;</a></td>
+<td>定义键盘码（键盘输入）。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_phrase_elements.asp" target="_blank">&lt;samp&gt;</a></td>
+<td>定义计算机代码样本（也定义计算机输出示例）。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_font_style.asp" target="_blank">&lt;tt&gt;</a></td>
+<td>定义打字机代码。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_phrase_elements.asp" target="_blank">&lt;var&gt;</a></td>
+<td>定义变量。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_pre.asp" target="_blank">&lt;pre&gt;</a></td>
+<td>定义预格式文本。</td>
+</tr>
+<tr>
+<td>&lt;listing&gt;</td>
+<td class="deprecated"><em>不赞成使用。</em>使用 &lt;pre&gt; 代替。</td>
+</tr>
+<tr>
+<td>&lt;plaintext&gt;</td>
+<td class="deprecated"><em>不赞成使用。</em>使用 &lt;pre&gt; 代替。</td>
+</tr>
+<tr>
+<td>&lt;xmp&gt;</td>
+<td class="deprecated"><em>不赞成使用。</em>使用 &lt;pre&gt; 代替。</td>
+</tr>
+</tbody></table><p data-anchor-id="7o8s">示例（i.用&lt;pre&gt;和&lt;code&gt;来写，要注意到&lt;code&gt; 元素不保留多余的空格和折行 ii.用&lt;var&gt;）</p><p data-anchor-id="ixpe">i. <br>
+<img src="http://static.zybuluo.com/PenguinFather/q37ng8omznpdv2is8exuiher/image_1dftuoufdhtrm461gag25q1k8q2n.png" alt="image_1dftuoufdhtrm461gag25q1k8q2n.png-58.4kB"><br> <br>
+<img src="http://static.zybuluo.com/PenguinFather/ptemrbjajt1wh7ijbr8sdo08/image_1dftuqjkoq87hfd1tlqecm1ik34.png" alt="image_1dftuqjkoq87hfd1tlqecm1ik34.png-81.1kB" title=""></p><p data-anchor-id="ecpm">ii. <br>
+<img src="http://static.zybuluo.com/PenguinFather/v4k3pf979wml114twaql6qe5/image_1dftut65c1m491n0rui1g4d1bu73h.png" alt="image_1dftut65c1m491n0rui1g4d1bu73h.png-37.3kB" title=""> <br>
+<br></p><h4 style="text-align:center" data-anchor-id="oprq" id="4引用引用和术语定义">4.引用、引用和术语定义</h4><table class="table table-striped-white table-bordered" data-anchor-id="j84s">
+<tbody><tr>
+<th style="width:30%">标签</th>
+<th style="width:70%">描述</th>
+</tr>
+<tr>
+<td><a href="/tags/tag_abbr.asp" target="_blank">&lt;abbr&gt;</a></td>
+<td>定义缩写 或 首字母缩略语。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_acronym.asp" target="_blank">&lt;acronym&gt;</a></td>
+<td>定义首字母缩写 或 缩写。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_address.asp" target="_blank">&lt;address&gt;</a></td>
+<td>定义地址。（定义文档作者或拥有者的联系信息。）</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_bdo.asp" target="_blank">&lt;bdo&gt;</a></td>
+<td>定义文字方向。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_blockquote.asp" target="_blank">&lt;blockquote&gt;</a></td>
+<td>定义长的引用。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_q.asp" target="_blank">&lt;q&gt;</a></td>
+<td>定义短的引用语。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_phrase_elements.asp" target="_blank">&lt;cite&gt;</a></td>
+<td>定义引用、引证、著作标题。</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_phrase_elements.asp" target="_blank">&lt;dfn&gt;</a></td>
+<td>定义一个定义项目或缩略词。</td>
+</tr>
+</tbody></table><p data-anchor-id="hqqj"><br></p><h4 style="text-align:center" data-anchor-id="yxwh" id="5地址">5.地址</h4><p data-anchor-id="7cfq">用&lt;address&gt;标签，下面见示例 <br>
+<img src="http://static.zybuluo.com/PenguinFather/darz48vif29rc1enl6mh3z6h/image_1dftsh2ni17olcmj1d3d1a9u95lm.png" alt="image_1dftsh2ni17olcmj1d3d1a9u95lm.png-51.1kB" title=""> <br>
+<br></p><h4 style="text-align:center" data-anchor-id="chf5" id="6缩写abbreviation和首字母缩写acronym-abbreviation">6.缩写(abbreviation)和首字母缩写（Acronym abbreviation）</h4><p data-anchor-id="g3nz">缩写用&lt;abbre&gt;标签，首字母缩写用&lt;acronym&gt;标签 <br>
+（其实这两者功能一样，可混用：都是在title属性中放要展示的完整版本内容，在开始标签、结束标签中间放缩写/首字母缩写内容） <br>
+下面见示例 <br>
+<img src="http://static.zybuluo.com/PenguinFather/2ndtqok2vvcb72epzur3kh3w/image_1dftt5q6k1tn714sj9c519dv1gmh1g.png" alt="image_1dftt5q6k1tn714sj9c519dv1gmh1g.png-99.5kB"> <br>
+<br></p><h4 style="text-align:center" data-anchor-id="igj2" id="7文字方向">7.文字方向</h4><p data-anchor-id="dpt4">用&lt;bdo&gt;标签 及 dir属性 <br>
+<img src="http://static.zybuluo.com/PenguinFather/gz2h3kbtcyysonhaxtpo940c/image_1dftt92ca1n5huci1av010gv1m891t.png" alt="image_1dftt92ca1n5huci1av010gv1m891t.png-54.1kB"> <br>
+<br></p><h4 style="text-align:center" data-anchor-id="uzrz" id="8删除字效果和插入字效果">8.删除字效果和插入字效果</h4><p data-anchor-id="3opn"><img src="http://static.zybuluo.com/PenguinFather/slf168ry725qqh5fp8cedzzy/image_1dfttg0d71o3n11abj391bua1meg2a.png" alt="image_1dfttg0d71o3n11abj391bua1meg2a.png-23.2kB"></p><div class="md-section-divider"></div><h3 data-anchor-id="glrr" id="html链接">HTML链接</h3></div>
+</body>
+</html>
